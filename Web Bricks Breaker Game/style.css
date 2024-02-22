@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+}
+.hd{
+    border: 1px solid rgb(34, 222, 222);
+    border-radius: 10px;
+    background-color: lightcyan;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.hd1{
+    text-align: center;
+}
+#board {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid blue;
+    background-color: rgb(26, 26, 26);
+}
+.btng{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn{
+    width: 20vmax;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 10vmin;
+    border-radius: 5px;
+    border: 2px solid rgb(58, 58, 58);
+    background-color: lightsteelblue;
+}@media (max-width: 500px) {
+    /* Styles for screens with a width up to 500px */
+    #board {
+        margin-top: 20px;
+        width: 70vw;
+        height: 50vh;
+    }
+}
+@media (min-width: 501px) and (max-width: 770px) {
+    #board {
+        margin-top: 20px;
+        width: 50vw;
+        height: 70vh;
+    }
+}
+@media (min-width: 771px) and (max-width: 1024px) {
+    #board {
+        margin-top: 20px;
+        width: 30vw;
+        height: 60vh;
+    }
+}
+@media (min-width: 1025px) {
+    #board {
+        margin-top: 20px;
+        width: 30vw;
+        height: 70vh;
+    }
+}
